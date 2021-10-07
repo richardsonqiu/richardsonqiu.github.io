@@ -1,0 +1,253 @@
+:root {
+    --gray-color: #2F2F2F;
+    --darkorange-color: #dda919;
+    --orange-color: #ecb90f;
+    --light-color: #FDF7F0;
+}
+
+.padding-80 {
+    padding: 80px 0 0 80px;
+}
+
+.padding-160 {
+    padding: 160px 100px 0 100px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    font-weight: bold;
+}
+
+h2 span {
+    color: var(--orange-color);
+}
+
+.button-filled {
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: var(--light-color);
+    background-color: var(--orange-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-filled:hover {
+    text-decoration: underline;
+    border-radius: 8px;
+    background-color: var(--gray-color);
+    color: white;
+}
+
+.button-unfilled {
+    border-color: var(--orange-color);
+    border-width: 1px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: var(--orange-color);
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-unfilled:hover {
+    text-decoration: underline;
+    border-radius: 8px;
+    background-color: var(--orange-color);
+    color: white;
+}
+
+.button-translucent {
+    border-color: transparent;
+    border-radius: 8px;
+    border-width: 0px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: var(--light-color);
+    background-color: var(--darkorange-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-translucent:hover {
+    text-decoration: underline;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: var(--darkorange-color);
+}
+
+.button-filled,
+.button-unfilled,
+.button-translucent {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.dark-text h2 {
+    color: var(--orange-color)
+}
+
+.dark-text {
+    color: var(--light-color)
+}
+
+
+/* image from https://www.littlefoot.sg/family-support */
+
+.banner-image {
+    height: 660px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+}
+
+.banner-text span {
+    color: var(--orange-color);
+}
+
+.banner2-title {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: var(--light-color);
+    padding: 40px 80px 40px 200px;
+    text-align: right;
+    background-color: var(--orange-color);
+}
+
+.banner2-subtitle {
+    position: absolute;
+    top: 55%;
+    left: 200px;
+    color: var(--gray-color);
+    padding-right: 55%;
+    text-align: left;
+}
+
+.banner2-subtitle h5 {
+    font-weight: normal;
+}
+
+.banner2-subtitle span {
+    font-weight: bolder;
+    color: var(--darkorange-color);
+}
+
+img.fill {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.loan {
+    width: 16.47%;
+    margin: 0;
+    padding: 0;
+}
+
+.loan img {
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.loan-text a {
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    margin: auto;
+    padding: 240px 20px 20px 20px;
+    width: 17%;
+    height: 400px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--light-color);
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.loan-text a:hover {
+    /* text-decoration: underline; */
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.flex-logo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin: 40px 0;
+}
+
+.flex-logo img {
+    height: 50px;
+    width: auto;
+}
+
+.card-deck {
+    gap: 2%;
+}
+
+.card-img-top,
+.card {
+    border-radius: 0px;
+}
+
+.card-body,
+.card-footer {
+    padding: 20px 0px;
+}
+
+.card-title {
+    color: var(--orange-color);
+}
+
+.carousel-text {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+    padding: 60px 200px 100px 80px;
+    color: var(--light-color);
+    background-color: var(--orange-color);
+}
+
+.carousel-text h5 {
+    font-weight: lighter;
+    padding-bottom: 16px;
+}
+
+.carousel-text p {
+    color: var(--gray-color);
+}
